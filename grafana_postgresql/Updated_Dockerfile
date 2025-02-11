@@ -1,9 +1,9 @@
 FROM grafana/grafana:8.3.0
 
 # Copy datasource and dashboard configuration files
-COPY datasource.yml /etc/grafana/provisioning/datasources/
-COPY stock_data_dashboard.json /etc/grafana/provisioning/dashboards/
-COPY dashboard.yml /etc/grafana/provisioning/dashboards/
+COPY grafana_datasource.yml /etc/grafana/provisioning/datasources/
+COPY grafana_stock_data_dashboard.json /etc/grafana/provisioning/dashboards/
+COPY grafana_dashboard.yml /etc/grafana/provisioning/dashboards/
 
 USER root
 # Install PostgreSQL client and dependencies
