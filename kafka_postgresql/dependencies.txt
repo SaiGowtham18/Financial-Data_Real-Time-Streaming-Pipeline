@@ -1,0 +1,5 @@
+kafka-python==2.0.2
+requests
+psycopg2
+pandas
+python-dotenv

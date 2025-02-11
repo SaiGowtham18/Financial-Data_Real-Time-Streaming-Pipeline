@@ -1,0 +1,4 @@
+pyspark==3.5.1
+python-dotenv
+pypostgresql  # Added MySQL support
+loguru   # Enhanced logging library
