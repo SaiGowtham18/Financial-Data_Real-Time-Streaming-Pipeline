@@ -20,14 +20,14 @@ This project demonstrates a **real-time data processing pipeline** that:
 ## 🛠️ Technologies Used
 | Category            | Tools/Technologies |
 |--------------------|------------------|
-| **Programming**   | Python, SQL, Scala |
+| **Programming**   | Python, SQL |
 | **Data Streaming** | Apache Kafka |
 | **Big Data Processing** | Apache Spark (PySpark) |
 | **Database** | PostgreSQL |
 | **Monitoring & Dashboards** | Grafana |
 | **Workflow Orchestration** | Apache Airflow |
 | **Containerization** | Docker, Kubernetes |
-| **Infrastructure & DevOps** | Terraform, CI/CD (GitHub Actions, Jenkins) |
+
 
 ## 📂 Project Architecture
 ```plaintext
@@ -124,41 +124,6 @@ SELECT * FROM stock_data;
 2. Login with `admin / admin`.
 3. Navigate to **Stock Market Dashboard**.
 
-## 📈 Sample Queries
-Retrieve the **latest 10 stock price updates**:
-```sql
-SELECT * FROM stock_data ORDER BY timestamp DESC LIMIT 10;
-```
-
-Find **average stock price per company**:
-```sql
-SELECT company, AVG(price) FROM stock_data GROUP BY company;
-```
-
-## 📌 Additional Features
-✅ **Error Handling & Logging** – Integrated with Python `logging` and `Grafana alerts`.  
-✅ **Database Connection Retries** – PostgreSQL connection ensures failover safety.  
-✅ **Scalable with Kubernetes** – Supports horizontal scaling for big data workloads.  
-✅ **Data Retention Policies** – Auto-cleans old stock market data to optimize storage.  
-
-## 💡 Future Enhancements
-- ✅ **Integrate Machine Learning** to predict stock prices.
-- ✅ **Deploy on AWS using Terraform** for auto-scaling.
-- ✅ **Add REST API endpoints** for real-time data queries.
-
-## 📜 License
-This project is licensed under the **MIT License** – feel free to use and improve!
-
-## 🤝 Contributing
-We welcome contributions! To contribute:
-1. **Fork this repository**.
-2. **Create a feature branch** (`git checkout -b new-feature`).
-3. **Commit your changes** (`git commit -m "Add new feature"`).
-4. **Push to your branch** (`git push origin new-feature`).
-5. **Open a Pull Request**.
-
-## 📩 Contact & Support
-For any issues, feel free to **open an issue** or reach out:
 
 📧 **Email:** [your-email@example.com](mailto:your-email@example.com)  
 🌍 **GitHub:** [SaiGowtham18](https://github.com/SaiGowtham18)  
